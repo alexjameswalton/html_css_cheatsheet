@@ -1,0 +1,46 @@
+h1, h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: cursive;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    /*background-color: #009879;
+    color: #ffffff;*/
+    text-align: left;
+    background: #56ab2f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #56ab2f, #a8e063); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #56ab2f, #a8e063); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:hover {
+    background-color: yellowgreen;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #a8e063;
+}
+

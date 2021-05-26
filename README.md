@@ -1,0 +1,1 @@
+Codecademy project experimenting with table formatting
